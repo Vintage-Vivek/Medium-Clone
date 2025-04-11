@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFC32B;
+    /* padding: 0 100px; */
+    padding-left: 50px;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    z-index: 100;
+}
+.navbar .logo h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.navbar .nav_des a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    margin-right: 30px;
+}
+
+.navbar .nav_des a:hover{
+    color: #7cb2cd;
+}
+.navbar .nav_des button{
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    height: 50px;
+    width: 150px;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 100px;
+}
+.hero{
+    background-color: #FFC32B;
+    height: 100vh;
+    padding-left: 50px;
+}
+.hero .hero_text h1{
+    font-size: 8rem;
+    padding-top: 150px;
+    font-weight: lighter;
+}
+.hero .hero_text p{
+    font-size: 2rem;
+    padding-top: 20px;
+    width: 600px;
+    font-weight: lighter;
+}
+.heroBtn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    height: 50px;
+    width: 200px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.sec2_head{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.sec2_container{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    justify-content: space-between;
+    /* background-color: #5b2020; */
+}
+.sec2_container .sec2_small .sec2_num p{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(208, 208, 208);
+    padding-right: 1.2rem;
+}
+.sec2_small{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 2rem;
+    width: 400px;
+}
+
+.section_3{
+    /* background-color: #FFC32B; */
+    height: 210vh;
+    padding: 50px;
+    display: flex;
+}
+.sec3_play{
+    /* background-color: #7cb2cd; */
+    height: 500px;
+    width: 60%
+}
+.sec3_static{
+    position: sticky;
+    top: 90px;
+    /* background-color: #a24d4d; */
+    height: 500px;
+    width: 40%;
+    padding-left: 20px;
+}
+
+.sec3_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 500px;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sec3_wrap a{
+    height: 20px;
+    width: 100px;
+    background-color: #aaa8a861;
+    text-decoration: none;
+    padding:10px 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+.see{
+    text-decoration: none;
+    color: rgb(0, 186, 0);
+    font-weight: bolder;
+}
+
+.sec3_wrap2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 500px;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sec3_wrap2 a{
+    text-decoration: none;
+    padding:10px 20px;
+    color: black;
+}
+.sec3_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+.dance{
+    height: 20px;
+    width: 100px;
+    background-color: #aaa8a8b7;
+    text-decoration: none;
+    padding:10px 20px;
+    border-radius: 20px;
+    color: black;
+    margin-left: 10px;
+}
